@@ -1,0 +1,42 @@
+.offers_commit {
+  background-color: #f5f6f9;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 3rem 0;
+  text-align: center;
+}
+.offers_commit > h3 {
+  color: #232323;
+}
+.offers_commit span {
+  color: #979797;
+}
+.offer_banners {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fashion {
+  width: 33%;
+  background-color: #2e3348;
+  text-align: center;
+  padding: 2rem;
+}
+.fashion_for_men {
+  width: 33%;
+  background-color: #34394f;
+  text-align: center;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .fashion {
+    width: 100%;
+  }
+  .fashion_for_men {
+    width: 100%;
+  }
+}

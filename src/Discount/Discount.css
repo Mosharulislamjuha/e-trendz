@@ -1,0 +1,86 @@
+.discount_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.coupon_form {
+  background: url("/src/img/slide5.png");
+  background-repeat: no-repeat;
+  width: 50%;
+  text-align: center;
+  padding: 1.5rem;
+}
+.coupon_form > h2,
+p {
+  color: white;
+}
+input[type="email"] {
+  outline: none;
+  border: none;
+  padding: 0.75rem 2.5rem;
+  text-align: center;
+  margin-right: 10px;
+}
+.btn_coupon {
+  outline: none;
+  border: none;
+  background: #3cb878;
+  color: white;
+  font-weight: 300;
+  padding: 0.75rem 1.5rem;
+}
+.brand_logo {
+  background: #f5f6f9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+  padding: 2.5rem;
+}
+.get_connect {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.stay_tune {
+  text-align: center;
+}
+.stay_tune span {
+  padding: 1rem;
+  font-weight: 300;
+}
+.social_link i {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .coupon_form {
+    width: 100%;
+  }
+  .brand_logo {
+    width: 100%;
+    padding: 3.5rem 0;
+  }
+  .get_connect {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .discount_container {
+    flex-direction: column;
+  }
+  .brand_logo {
+    width: 80%;
+    padding: 1.5rem;
+  }
+  .coupon_form {
+    width: 80%;
+  }
+  .stay_tune {
+    text-align: center;
+    padding: 1rem;
+  }
+}

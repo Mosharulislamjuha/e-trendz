@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/Np62jRX/diamond.png",
+    "name": "SPECIAL OFFERS",
+    "des": "Shop Big Save Big"
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/9v9RMKm/plane-2.png",
+    "name": "FREE DELIVERY",
+    "des": "On Orders Above $99"
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/T8RvkcD/rocket.png",
+    "name": "30 DAYS RETURN",
+    "des": "Policy We Offers"
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/qpHJzgN/share.png",
+    "name": "FASTEST SHIPPING",
+    "des": "2 Days Express"
+  }
+]

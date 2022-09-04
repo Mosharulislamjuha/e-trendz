@@ -1,0 +1,26 @@
+.feature_title {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+.feature_title h2 {
+  color: #333333;
+  font-weight: 600;
+}
+.feature_title i {
+  color: #63c693;
+  font-weight: 600;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+}
+.rating i {
+  margin-top: 5px;
+  display: inline-block;
+  color: goldenrod;
+  margin: 0;
+  text-align: center;
+}

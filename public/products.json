@@ -1,0 +1,109 @@
+[
+  {
+    "bestSeller": [
+      {
+        "id": 1,
+        "img": "https://i.ibb.co/wgq90Wp/wristwatch-png-image-georg-jensen-gmt-watch-transparent-png-kindpng.png",
+        "name": "Wrist Watch",
+        "price": "250.0",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "img": "https://i.ibb.co/wgq90Wp/wristwatch-png-image-georg-jensen-gmt-watch-transparent-png-kindpng.png",
+        "name": "Wrist Watch",
+        "price": "31.10",
+        "rating": 4
+      },
+      {
+        "id": 3,
+        "img": "https://i.ibb.co/wgq90Wp/wristwatch-png-image-georg-jensen-gmt-watch-transparent-png-kindpng.png",
+        "name": "Wrist Watch",
+        "price": "50.01",
+        "rating": 4
+      },
+      {
+        "id": 4,
+        "img": "https://i.ibb.co/wgq90Wp/wristwatch-png-image-georg-jensen-gmt-watch-transparent-png-kindpng.png",
+        "name": "Wrist Watch",
+        "price": "2504.00",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "featured": [
+      {
+        "id": 4,
+        "img": "https://i.ibb.co/wgq90Wp/wristwatch-png-image-georg-jensen-gmt-watch-transparent-png-kindpng.png",
+        "name": "Wrist Watch",
+        "price": "2504.00",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "img": "https://i.ibb.co/wgq90Wp/wristwatch-png-image-georg-jensen-gmt-watch-transparent-png-kindpng.png",
+        "name": "Wrist Watch",
+        "price": "31.10",
+        "rating": 4
+      },
+      {
+        "id": 1,
+        "img": "https://i.ibb.co/wgq90Wp/wristwatch-png-image-georg-jensen-gmt-watch-transparent-png-kindpng.png",
+        "name": "Wrist Watch",
+        "price": "250.0",
+        "rating": 5
+      },
+      {
+        "id": 3,
+        "img": "https://i.ibb.co/wgq90Wp/wristwatch-png-image-georg-jensen-gmt-watch-transparent-png-kindpng.png",
+        "name": "Wrist Watch",
+        "price": "50.01",
+        "rating": 4
+      },
+      {
+        "id": 4,
+        "img": "https://i.ibb.co/wgq90Wp/wristwatch-png-image-georg-jensen-gmt-watch-transparent-png-kindpng.png",
+        "name": "Wrist Watch",
+        "price": "2504.00",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "img": "https://i.ibb.co/wgq90Wp/wristwatch-png-image-georg-jensen-gmt-watch-transparent-png-kindpng.png",
+        "name": "Wrist Watch",
+        "price": "31.10",
+        "rating": 4
+      },
+      {
+        "id": 1,
+        "img": "https://i.ibb.co/wgq90Wp/wristwatch-png-image-georg-jensen-gmt-watch-transparent-png-kindpng.png",
+        "name": "Wrist Watch",
+        "price": "250.0",
+        "rating": 4
+      },
+      {
+        "id": 3,
+        "img": "https://i.ibb.co/wgq90Wp/wristwatch-png-image-georg-jensen-gmt-watch-transparent-png-kindpng.png",
+        "name": "Wrist Watch",
+        "price": "50.01",
+        "rating": 4
+      },
+      {
+        "id": 1,
+        "img": "https://i.ibb.co/wgq90Wp/wristwatch-png-image-georg-jensen-gmt-watch-transparent-png-kindpng.png",
+        "name": "Wrist Watch",
+        "price": "250.0",
+        "rating": 4
+      },
+      {
+        "id": 3,
+        "img": "https://i.ibb.co/wgq90Wp/wristwatch-png-image-georg-jensen-gmt-watch-transparent-png-kindpng.png",
+        "name": "Wrist Watch",
+        "price": "50.01",
+        "rating": 4
+      }
+    ]
+  }
+]
+
