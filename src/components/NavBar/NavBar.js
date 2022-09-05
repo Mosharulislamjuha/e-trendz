@@ -23,13 +23,10 @@ const NavBar = () => {
           </span>
         </div>
         <div className="contact_media">
-          <Link to="https://www.facebook.com/">
-            <i class="fab fa-facebook-f"></i>
-          </Link>
+          
           <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-          <Link to="https://twitter.com/">
-            <i class="fab fa-twitter"></i>
-          </Link>
+          <a href="https://twitter.com/"> <i class="fab fa-twitter"></i></a>
+          
           <Link to="https://www.instagram.com/">
             <i class="fab fa-instagram-square"></i>
           </Link>
@@ -80,7 +77,8 @@ const NavBar = () => {
               <i className={click ? "fas fa-times" : "fas fa-bars"} />
             </div>
             <div>
-              <Link className="nav_item" to={'/login'}><button>Login</button></Link>
+              <Link className="nav_item " to={'/login'}><button className="btn_regularr">Log in</button></Link>
+              <Link className="nav_item " to={'/login'}><button className="btn_regularr">Register</button></Link>
             </div>
           </div>
         </div>

@@ -3,12 +3,19 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 96%;
   height: 80vh;
+  
   color: #ffffff;
   display: flex;
+  padding-inline-start: 5%;
+  padding-inline-end: 5%;
+  margin-inline-end: 4%;
   flex-direction: column;
   justify-content: center;
+}
+.style1{
+  background-color: black;
 }
 .banner_container > h1 {
   font-size: 60px;
@@ -25,7 +32,7 @@
   display: inline-block;
   border: none;
   outline: none;
-  background-color: transparent;
+  background-color: black;
   color: #fdfeff;
   font-weight: 700;
   border: 2px solid #d6e9ff;
