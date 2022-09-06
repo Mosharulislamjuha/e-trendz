@@ -95,7 +95,7 @@
   outline: none;
   font-size:0.8rem;
   background-color:rgb(234, 233, 233);
-  color: rgb(95, 93, 93);
+  color: #14a359;
   font-weight: 300;
   border: 0px  #d6e9ff;
   padding-right: 15px;
@@ -106,10 +106,17 @@
   
 }
 .btn_regularr:hover {
-  border-radius: 5px;
+  /* border-radius: 5px;
   background-color: #14a359;
   border: 2px solid #14a359;
   color: black;
+   */
+    /* border-radius: 5px; */
+    background-color: #14a359;
+    
+    /* border: 2px solid #14a359; */
+    color: black;
+  
 }
 
 @media screen and (max-width: 960px) {

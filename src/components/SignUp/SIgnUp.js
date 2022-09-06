@@ -1,7 +1,7 @@
 import {
+  createUserWithEmailAndPassword,
   getAuth,
   GoogleAuthProvider,
-  signInWithEmailAndPassword,
   signInWithPopup,
 } from "firebase/auth";
 import React, { useState } from "react";
@@ -41,8 +41,8 @@ export default function Login() {
       });
   };
 
-  const handleLogin = () => {
-    signInWithEmailAndPassword(auth, email, password)
+  const handleRegisterUser = () => {
+    createUserWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         // Signed in
         const user = userCredential.user;
@@ -51,6 +51,7 @@ export default function Login() {
       .catch((error) => {
         const errorCode = error.code;
         const errorMessage = error.message;
+        // ..
       });
   };
 
@@ -59,7 +60,7 @@ export default function Login() {
       <p className="sign" align="center">
         Sign In
       </p>
-      <form onSubmit={handleLogin}>
+      <form onSubmit={handleRegisterUser}>
         <input
           class="un "
           type="text"
@@ -77,7 +78,7 @@ export default function Login() {
         <input className="submit" align="center" type="submit" value="Login" />
       </form>
       <button className="submit1 mt-3" onClick={handleGoogleSignIn}>
-        Google Log in
+        Google Sign Up
       </button>
     </div>
   );
