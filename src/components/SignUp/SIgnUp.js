@@ -5,12 +5,13 @@ import {
   signInWithPopup,
 } from "firebase/auth";
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { initializeFirebase } from "../../firebase/firebase.config";
-import "./login.css";
+import "./../Login/login.css";
 
 initializeFirebase();
 
-export default function Login() {
+export default function SignUp() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   // const [currentStateValue, SetUpdatedValue] = useState('')
@@ -57,8 +58,11 @@ export default function Login() {
 
   return (
     <div className="main">
+      <Link to="/">
+      <h1 align="center">e-Trendz</h1>
+      </Link>
       <p className="sign" align="center">
-        Sign In
+        Sign Up
       </p>
       <form onSubmit={handleRegisterUser}>
         <input

@@ -75,8 +75,9 @@ export default function Login() {
           onChange={(e) => setPassword(e.target.value)}
         />
         <input className="submit" align="center" type="submit" value="Login" />
+        
       </form>
-      <button className="submit1 mt-3" onClick={handleGoogleSignIn}>
+      <button id="hover" className="submit1 mt-3" onClick={handleGoogleSignIn}>
         Google Log in
       </button>
     </div>
